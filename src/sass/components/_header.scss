@@ -1,0 +1,13 @@
+.header {
+  background-color: $theme-bg;
+  text-align: center;
+  padding: $gutter-width;
+  width: 100%;
+  margin-bottom: $gutter-width;
+
+  h1 {
+    margin: 0;
+    font-weight: normal;
+    color: $theme-color-highlight;
+  }
+}

@@ -1,0 +1,5 @@
+.footer {
+  @extend .header;
+  margin-top: $gutter-width;
+  font-size: $font-size-small;
+}

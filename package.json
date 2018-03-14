@@ -1,0 +1,28 @@
+{
+  "name": "introduction-to-sass",
+  "version": "1.0.0",
+  "description": "Introduction to SASS for FEWD001 students with Experience Haus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/redbeardigital/introduction-to-sass.git"
+  },
+  "keywords": [
+    "sass",
+    "learning",
+    "gulp"
+  ],
+  "author": "Charlie Hawker <charlie@redbeardigital.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redbeardigital/introduction-to-sass/issues"
+  },
+  "homepage": "https://github.com/redbeardigital/introduction-to-sass#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

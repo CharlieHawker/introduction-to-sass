@@ -1,0 +1,25 @@
+@media (min-width: $breakpoint-tablet-min) {
+  .main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+}
+
+.main-body {
+  background-color: $theme-bg;
+  padding: $gutter-width/2;
+  @media (min-width: $breakpoint-tablet-min) {
+    width: 70%;
+  }
+}
+
+.main-sidebar {
+  background-color: $theme-bg;
+  padding: $gutter-width/2;
+  @media (min-width: $breakpoint-tablet-min) {
+    width: 30%;
+    margin-left: $gutter-width;
+  }
+}

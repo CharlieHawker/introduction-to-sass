@@ -1,0 +1,45 @@
+/* Settings */
+$base-font-size: 16px;
+$base-font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+$base-line-height: 1.4;
+$font-size-small: $base-font-size * 0.8;
+
+/* Branding */
+$layout-bg: #ccc;
+$theme-bg: #fff;
+$theme-color: #0c0c0c;
+$theme-color-highlight: tomato;
+
+/* Responsive Breakpoints */
+$breakpoint-tablet-min: 600px;
+$breakpoint-tablet-max: 991px;
+$breakpoint-desktop-min: 992px;
+$gutter-width: 30px;
+
+/* Layout */
+$tablet-max-width: 960px;
+$desktop-max-width: 1100px;
+
+*,html,body {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0c0c0c;
+  font-size: $base-font-size;
+  font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+  line-height: $base-line-height;
+  color: $theme-color;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Import other SASS files */
+@import 'components/container';
+@import 'components/footer';
+@import 'components/header';
+@import 'components/main';

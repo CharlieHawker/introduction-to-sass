@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  max-width: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  @media (min-width: $breakpoint-tablet-min) {
+    max-width: $tablet-max-width;
+  }
+  @media (min-width: $breakpoint-desktop-min) {
+    max-width: $desktop-max-width;
+  }
+}
